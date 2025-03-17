@@ -1,13 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-#define BASE 0
-#define NAV  1
-#define SYM  2
-#define ADJ  3
-#define TVP1 4
-#define TVP2 5
-
 / {
     combos { compatible = "zmk,combos"; };
 
@@ -33,11 +26,11 @@
             label = "TRIPLE_SHIFT";
         };
 
-        vim_serach: vim_serach {
+        vim_search: vim_search {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp COLON &kp PERCENT &kp S &kp SLASH>;
-            label = "VIM_SERACH";
+            label = "VIM_SEARCH";
         };
     };
 
