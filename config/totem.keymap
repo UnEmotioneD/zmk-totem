@@ -157,16 +157,16 @@
 
         layer_8 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &trans  &kp TILDE  &kp DOUBLE_QUOTES  &kp PIPE       &trans    &trans  &trans         &trans         &trans         &trans
+        &trans  &kp GRAVE  &kp SINGLE_QUOTE   &kp BACKSLASH  &trans    &trans  &kp LS(LC(F))  &kp LS(LC(O))  &kp LS(LC(R))  &kp LS(LA(S))
+&trans  &trans  &trans     &trans             &trans         &trans    &trans  &kp LC(F11)    &kp LS(LA(Q))  &kp LS(LA(R))  &kp LS(LA(Z))  &trans
+                           &trans             &trans         &trans    &trans  &trans         &trans
             >;
         };
 
         layer_9 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &to 0   &trans  &trans  &to 4
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
