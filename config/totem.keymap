@@ -227,7 +227,7 @@
             bindings = <
        &kp LA(LC(S))   &kp LA(NUMBER_1)  &kp LA(NUMBER_6)  &kp LA(NUMBER_4)  &none     &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3
        &kp LA(INSERT)  &kp LA(LC(L))     &kp LC(PG_UP)     &kp LC(PG_DN)     &none     &kp LC(F5)     &kp LC(GRAVE)  &kp LS(LC(M))  &kp LS(LC(E))  &kp LS(LC(P))
-&mo 0  &kp LA(F7)      &kp LS(F6)        &double_shift     &kp LS(F10)       &none     &triple_shift  &kp LA(F4)     &kp PSCRN      &kp LS(LC(F))  &kp LS(LA(F))  &none
+&to 0  &kp LA(F7)      &kp LS(F6)        &double_shift     &kp LS(F10)       &none     &triple_shift  &kp LA(F4)     &kp PSCRN      &kp LS(LC(F))  &kp LS(LA(F))  &none
                                          &trans            &trans            &trans    &trans         &trans         &trans
             >;
         };
@@ -243,10 +243,10 @@
 
         layer_9 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &to 0   &trans  &trans  &to 4
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &bootloader    &bootloader  &to 0   &trans  &trans  &to 4
+        &trans  &trans  &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans         &trans       &trans  &trans
             >;
         };
     };
